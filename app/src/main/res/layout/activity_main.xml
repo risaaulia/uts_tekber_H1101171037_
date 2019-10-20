@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Materi Android Progamming"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BtnMain2Activity"
+        android:layout_width="138dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="Activity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/BtnMain3Activity"
+        android:layout_width="138dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="Services"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnMain2Activity" />
+
+    <Button
+        android:id="@+id/BtnMain4Activity"
+        android:layout_width="138dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:text="Broadcasting Receiver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnMain3Activity" />
+
+    <Button
+        android:id="@+id/BtnMain5Activity"
+        android:layout_width="138dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:text="Content Provider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnMain4Activity" />
+    <Button
+        android:id="@+id/BtnMain6Activity"
+        android:layout_width="138dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="Intent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnMain5Activity" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
